@@ -1,0 +1,17 @@
+{
+    "name": "vendor/users",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SmagOlexandr",
+            "email": "smagolexandr@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Vendor\\users_roles\\": "src"
+        }
+    },
+    "require": {}
+}
