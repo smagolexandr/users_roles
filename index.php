@@ -13,7 +13,12 @@ $test->username = 'SmagOlexandr';
 $test->email = "test@gmail.com";
 $test->role = "Administrator";
 
-$admin = new Vendor\users_roles\Admin\Admin();
-$admin->getInfo();
+$tmp = new Vendor\users_roles\Users\Admin();
+$tmp->username = 'qwe';
+$tmp->email = "teqweqwst@gmail.com";
+$tmp->role = "Administrator";
+$tmp->root = true;
 
 $test->getInfo();
+echo "<br>";
+$tmp->getInfo();

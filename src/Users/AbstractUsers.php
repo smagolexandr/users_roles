@@ -13,5 +13,4 @@ abstract class AbstractUsers
     protected $password;
 
     abstract public function getInfo();
-
 }
