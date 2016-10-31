@@ -1,6 +1,6 @@
 <?php
 /**
- * Users class
+ * Users class.
  */
 
 namespace Vendor\users_roles\Users;
